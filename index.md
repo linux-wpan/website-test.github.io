@@ -1,17 +1,9 @@
 linux-wpan
 ==========
 
-Mailinglist  
+Mailinglist: <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> [Mailinglist-Archive](http://www.spinics.net/lists/linux-wpan)
 
-Table of Contents
-
-**JavaScript must be enabled in your browser to display the table of contents.**
-
-<[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> [Mailinglist-Archive](http://www.spinics.net/lists/linux-wpan)
-
-IRC
-
-#linux-wpan on irc.freenode.net
+IRC: #linux-wpan on irc.freenode.net
 
 wpan-tools
 ----------
@@ -21,17 +13,13 @@ To access the nl802154 netlink inteface and also for checking the network connec
 Dependencies:
 
 *   netlink library [libnl](http://www.infradead.org/~tgr/libnl/).
-    
+
 
 These tools contains:
 
-**iwpan**  
+**iwpan** based on the wireless [iw](http://wireless.kernel.org/en/users/Documentation/iw) tool.
 
-based on the wireless [iw](http://wireless.kernel.org/en/users/Documentation/iw) tool.
-
-**wpan-ping**  
-
-Ping utility on IEEE 802.15.4 level.
+**wpan-ping** Ping utility on IEEE 802.15.4 level.
 
 ### Download
 
@@ -42,7 +30,7 @@ For the last release check out [releases](http://wpan.cakelab.org/releases/) pag
 Supported Hardware
 ------------------
 
-Table 1. Supported 802.15.4 Hardware  
+Table 1. Supported 802.15.4 Hardware
 
 Transceiver
 
@@ -188,7 +176,7 @@ no
 
 [sparkfun](https://www.sparkfun.com/pages/xbee_guide)
 
-Table 2. Boards with Transceivers  
+Table 2. Boards with Transceivers
 
 Name
 
@@ -301,43 +289,43 @@ For wpan-tools checkout the [wpan-tools](https://github.com/linux-wpan/wpan-tool
 ### Open Tasks
 
 *   There is a lot of missing features for enum definition to some string definition in iwpan which can be lookup in 802.15.4 standard. Words say more than numbers…
-    
+
     *   channel/page to frequency
-        
+
     *   cca modes/opts
-        
+
     *   etc
-        
-    
+
+
 *   Missing features which wireless has and wpan not. Since we based our implementation on wireless we should sync "good patches" from wireless branch.
-    
+
     *   Whatever you want and find
-        
-    
+
+
 *   rework
-    
+
     *   missing features in nl802154, crypto etc.
-        
+
     *   new frame parsing style in mac802154 and ieee802154 based on mac80211 frame parsing design. Draft is [mac802154 rx](https://github.com/linux-wpan/linux-wpan-next/blob/wpan_rework_rfc/net/mac802154/rx.c). Crypto need to be done at first, otherwise I can’t test it.
-        
+
     *   remove cb context from dev\_hard\_header and introduce generic header generation functions like [header_ops](https://github.com/linux-wpan/linux-wpan-next/blob/wpan_rework_rfc/net/ieee802154/header_ops.c#L80). Here too, crypto need to be done at first.
-        
-    
+
+
 *   systemd
-    
+
     *   add basic functionality for nl802154 and 6lowpan setup in systemd-networkd
-        
-    
+
+
 *   network-manager
-    
+
 *   devicetree extended addr setting, draft is here [ieee802154: add usual way to get extended address via device tree](http://www.spinics.net/lists/linux-wpan/msg01503.html)
-    
+
 *   RPL? - not our job, need to go through ipv6 netdev community, but we should do something to have a "started" mainline solution.
-    
+
 *   cleanup/fix 802.15.4 af raw/dgram socket code. We should use bluetooth socket code as example.
-    
+
 *   In wireless exists a "station dump", we need something similar "node dump" with all neighbour nodes and their last LQI value, addresses, etc. information.
-    
+
 
 ### Rework
 
@@ -345,7 +333,7 @@ Currently a rework of 802.15.4 subsystem is in progress.
 
 The rework will contains a new netlink API and a general handling about frame creation and parsing.
 
-Table 3. Work status  
+Table 3. Work status
 
 Milestone
 
@@ -378,66 +366,41 @@ For the nl802154 framework you will need the wpan-tools, older kernels need lowp
 ### Specifications
 
 *   [IEEE](http://www.ieee802.org/15/pub/TG4.html):
-    
+
     *   [http://standards.ieee.org/about/get/802/802.15.html](http://standards.ieee.org/about/get/802/802.15.html)
-        
     *   802.15.4-2003
-        
     *   802.15.4-2006
-        
     *   802.15.4a-2007
-        
     *   802.15.4c-2009
-        
     *   802.15.4d-2009
-        
     *   802.15.4-2011
-        
     *   802.15.4e-2012
-        
     *   802.15.4f-2012
-        
     *   802.15.4g-2012
-        
     *   802.15.4j-2013
-        
     *   802.15.4k-2013
-        
     *   802.15.4m-2014
-        
     *   802.15.4p-2014
-        
-    
+
 *   [IETF](https://www.ietf.org/):
-    
+
     *   [IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs): Overview, Assumptions, Problem Statement, and Goals](http://tools.ietf.org/html/rfc4919)
-        
     *   [Transmission of IPv6 Packets over IEEE 802.15.4 Networks](http://tools.ietf.org/html/rfc4944)
-        
     *   [Compression Format for IPv6 Datagrams over IEEE 802.15.4-Based Networks](http://tools.ietf.org/html/rfc6282)
-        
     *   [RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks](http://tools.ietf.org/html/rfc6550)
-        
     *   [Neighbor Discovery Optimization for IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs)](http://tools.ietf.org/html/rfc6775)
-        
     *   [6LoWPAN-GHC: Generic Header Compression for IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs)](http://tools.ietf.org/html/rfc7400)
-        
-    
+
 *   IETF working groups:
-    
+
     *   [IPv6 over Low power WPAN (6lowpan)](http://datatracker.ietf.org/wg/6lowpan/documents/)
-        
     *   [Routing Over Low power and Lossy networks (roll)](http://datatracker.ietf.org/wg/roll/documents/)
-        
     *   [IPv6 over the TSCH mode of IEEE 802.15.4e (6tisch)](http://datatracker.ietf.org/wg/6tisch/documents/)
-        
     *   [IPv6 over Networks of Resource-constrained Nodes (6lo)](http://datatracker.ietf.org/wg/6lo/documents/)
-        
     *   [Constrained RESTful Environments (core)](http://datatracker.ietf.org/wg/core/documents/)
-        
-    
+
 *   [6LoWPAN IANA assignments](https://www.iana.org/assignments/_6lowpan-parameters/_6lowpan-parameters.xhtml)
-    
+
 
 ### Changing the Website
 
@@ -456,5 +419,3 @@ git send-email --to linux-wpan@vger.kernel.org -1
 Next wait for the reactions on the mailinglist and if your change is integrated.
 
 * * *
-
-Last updated 2018-03-02 12:00:24 CET
