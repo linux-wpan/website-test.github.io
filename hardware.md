@@ -4,7 +4,7 @@ Supported Hardware
 Table 1. Supported 802.15.4 Hardware
 
 Transceiver | Supported | Driver | Bus | Where to buy
------------------------------------------------------
+----------- | --------- | ------ | --- | ------------
 adf7242 | yes | adf7242 | SPI or PMOD | [Analog](http://www.analog.com/en/products/rf-microwave/integrated-transceivers-transmitters-receivers/low-power-rf-transceivers/adf7242.html#product-samplebuy)
 at86rf212 | yes | at86rf230 | SPI | [aliexpress](http://de.aliexpress.com/item/Wireless-transceiver-module-zigbee-module-belt-at86rf212-mcu-chip-780m-module/1757611944.html)
 at86rf212b | yes | at86rf230 | SPI | [digikey](http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&keywords=ATZB-212B-XPRO)
@@ -23,6 +23,6 @@ Xbee | no | [out of tree](https://github.com/joaopedrotaveira/linux-rpl/blob/mas
 Table 2. Boards with Transceivers
 
 Name | Transceiver | Website
-----------------------------
+---- | ----------- | -------
 Ci40 | ca8210 | [kickstarter](https://www.kickstarter.com/projects/imgtec/creator-ci40-the-ultimate-iot-in-a-box-dev-kit)
 blixten | cc2520 | [jopee](https://jopee.wordpress.com/6lowpan-gateway/)
