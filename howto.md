@@ -1,9 +1,8 @@
-How-To’s
---------
+##How-To’s
 
 This section describes various How-To’s. Per default you should have already a node type wpan interface.
 
-### 6LoWPAN
+## 6LoWPAN
 
 Set some valid pan_id, 802.15.4 default is 0xffff which means not assigned:
 
@@ -19,7 +18,7 @@ ip link add link wpan0 name lowpan0 type lowpan
 
 That’s it! Now you have some lowpan0 interface with a 6LoWPAN 1280 MTU which runs on top the wpan interface. As default you have a default link-local address based on the MAC (extended address).
 
-### Setup a 6LoWPAN test network
+## Setup a 6LoWPAN test network
 
 Let’s assume you want to setup a 6lowpan test network of six nodes. Each of them will be created in their own net namespace to avoid local IPv6 optimizations. Each netns is named according to the wpan interface which available in the net namespace.
 
@@ -27,16 +26,16 @@ Let’s assume you want to setup a 6lowpan test network of six nodes. Each of th
 ```shell
 #!/bin/sh
 
-\# we need some Private Area Network ID
+# we need some Private Area Network ID
 panid="0xbeef"
-\# number of nodes
+# number of nodes
 numnodes=6
 
-\# include the kernel module for a fake node, tell it to create six
-\# nodes
+# include the kernel module for a fake node, tell it to create six
+# nodes
 modprobe fakelb numlbs=$numnodes
 
-\# initialize all the nodes
+# initialize all the nodes
 for i in $(seq 0 \`expr $numnodes - 1\`);
 do
         ip netns delete wpan${i}
@@ -55,13 +54,13 @@ Now let us send some data over our network:
 
 ```
 ip netns exec wpan0 wireshark -kSl -i lowpan0 &
-\# ping all nodes
+# ping all nodes
 ip netns exec wpan0 ping6 ff02::1%lowpan0
 ```
 
 Now watch wireshark and all the nice ICMP packets there.
 
-### Troubleshooting
+## Troubleshooting
 
 If you have issues with transceiver connected to SPI bus, check first if wiring is correct and SPI controller is properly configured. Try to decrease SPI clock frequency. Messages like these ones in dmesg output could indicate problems with SPI connection:
 
@@ -70,7 +69,7 @@ at86rf230 spi32765.0: unexcept state change from 0x01 to 0x08. Actual state:
 WARNING: CPU: 0 PID: 61 at drivers/net/ieee802154/at86rf230.c:696 0xc0442644
 received tx trac status 4
 
-### Sniffing
+## Sniffing
 
 To sniff first remove all wpan interface which sits on top of the wpan phy. You will get a list of all current running phy interface with:
 
