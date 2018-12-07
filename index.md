@@ -1,5 +1,5 @@
-linux-wpan
-==========
+Linux Kernel IEEE 802.15.4 and 6LoWPAN Stack
+============================================
 
 Mailinglist: <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> [Mailinglist-Archive](http://www.spinics.net/lists/linux-wpan)
 
