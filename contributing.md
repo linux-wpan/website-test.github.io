@@ -1,11 +1,10 @@
-Developing
-----------
+## Developing
 
 Current developing repository is [bluetooth-next](http://git.kernel.org/cgit/linux/kernel/git/bluetooth/bluetooth-next.git). All patches should be send to <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> and based on bluetooth-next.
 
 For wpan-tools checkout the [wpan-tools](https://github.com/linux-wpan/wpan-tools) repository. Also send patches to <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> for it with a "wpan-tools" tag. The same for [wpan-misc](https://github.com/linux-wpan/wpan-misc).
 
-### Open Tasks
+## Open Tasks
 
 *   rework
 
@@ -19,7 +18,7 @@ For wpan-tools checkout the [wpan-tools](https://github.com/linux-wpan/wpan-tool
 *   cleanup/fix 802.15.4 af raw/dgram socket code. We should use bluetooth socket code as example.
 *   In wireless exists a "station dump", we need something similar "node dump" with all neighbour nodes and their last LQI value, addresses, etc. information.
 
-### Changing the Website
+## Changing the Website
 
 If you want to take part in developing this website, do the following:
 

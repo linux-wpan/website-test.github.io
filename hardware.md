@@ -1,7 +1,6 @@
-Supported Hardware
-------------------
+## Supported Hardware
 
-Table 1. Supported 802.15.4 Hardware
+### Supported 802.15.4 Hardware
 
 Transceiver | Supported | Driver | Bus | Where to buy
 ----------- | --------- | ------ | --- | ------------
@@ -21,7 +20,7 @@ mrf24j40 | yes | mrf24j40 | SPI | [aliexpress](http://de.aliexpress.com/item/MRF
 RZUSBstick | yes | atusb | USB | [element14](http://www.element14.com/community/docs/DOC-67532/l/avr-rz-usb-stick-module)
 Xbee | no | [out of tree](https://github.com/joaopedrotaveira/linux-rpl/blob/master/mainline-3.12.y/0001-Added-XBee-driver-support.patch) | UART | [sparkfun](https://www.sparkfun.com/pages/xbee_guide)
 
-Table 2. Boards with Transceivers
+### Boards with Transceivers
 
 Name | Transceiver | Website
 ---- | ----------- | -------
