@@ -1,4 +1,6 @@
-# IEEE 802.15.4 & 6LoWPAN Linux Kernel Stack
+This project serves the purpose of enabling IEEE 802.15.4. and 6LoWPAN support
+in the Linux kernel network stack. I direction integration into the kernel stack
+allows for using all its capabilities and features.
 
 ## Community interaction:
 Mailinglist: [linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org), [Archive](http://www.spinics.net/lists/linux-wpan)
