@@ -1,18 +1,16 @@
-Linux Kernel IEEE 802.15.4 and 6LoWPAN Stack
-============================================
+# IEEE 802.15.4 & 6LoWPAN Linux Kernel Stack
 
-Mailinglist: <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> [Mailinglist-Archive](http://www.spinics.net/lists/linux-wpan)
+## Project
+
+## Community communication:
+Mailinglist: [linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org), [Archive](http://www.spinics.net/lists/linux-wpan)
 
 IRC: #linux-wpan on irc.freenode.net
 
-wpan-tools
-----------
-
+## wpan-tools:
 To access the nl802154 netlink inteface and also for checking the network connectivity you will need the wpan-tools.
 
-Dependencies:
-
-*   netlink library [libnl](http://www.infradead.org/~tgr/libnl/).
+Only minimal dependencies are needed (netlink library [libnl](http://www.infradead.org/~tgr/libnl/))
 
 
 These tools contains:
@@ -21,6 +19,8 @@ These tools contains:
 
 **wpan-ping** Ping utility on IEEE 802.15.4 level.
 
-### Download
+**wpan-hwsim** configuration utility for the hardware simulator driver
+
+## Download
 
 For the last release check out [releases page](https://github.com/linux-wpan/wpan-tools/releases)
