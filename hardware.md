@@ -1,6 +1,6 @@
-## Supported Hardware
+# Hardware Support
 
-### Supported 802.15.4 Hardware
+### Supported 802.15.4 Transceiver
 
 Transceiver | Supported | Driver | Bus | Where to buy
 ----------- | --------- | ------ | --- | ------------
