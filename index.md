@@ -1,8 +1,3 @@
----
-layout: page
-title: Home
----
-
 This project serves the purpose of enabling IEEE 802.15.4. and 6LoWPAN support
 in the Linux kernel network stack. I direction integration into the kernel stack
 allows for using all its capabilities and features.
