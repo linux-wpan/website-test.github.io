@@ -1,4 +1,7 @@
-# Hardware Support
+---
+layout: page
+title: Hardware Support
+---
 
 ### Supported 802.15.4 Transceiver
 

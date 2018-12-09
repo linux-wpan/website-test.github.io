@@ -1,3 +1,8 @@
+---
+layout: page
+title: How-To
+---
+
 ##How-To’s
 
 This section describes various How-To’s. Per default you should have already a node type wpan interface.

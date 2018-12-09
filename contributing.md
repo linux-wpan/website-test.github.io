@@ -1,3 +1,8 @@
+---
+layout: page
+title: Contributing
+---
+
 ## Developing
 
 Current developing repository is [bluetooth-next](http://git.kernel.org/cgit/linux/kernel/git/bluetooth/bluetooth-next.git). All patches should be send to <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> and based on bluetooth-next.

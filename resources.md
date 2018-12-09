@@ -1,3 +1,9 @@
+---
+layout: page
+title: Resources
+---
+
+
 ## Specifications
 
 *   [IEEE](http://www.ieee802.org/15/pub/TG4.html):
