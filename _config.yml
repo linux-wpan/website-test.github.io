@@ -1,16 +1,16 @@
 # Setup
-title:               Linux-Wpan
-tagline:             'A Jekyll theme'
-description:         'Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               IEEE 802.15.4 & 6LoWPAN Linux Kernel Stack
+tagline:             'Linux-Wpan'
+description:         ''
 url:                 http://linux-wpan.org/website-test.github.io/index.html
 baseurl:             'http://linux-wpan.org/website-test.github.io'
-paginate:            12
+paginate:            9
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Stefan Schmidt
+  url:               ''
+  email:             stefan@datenfreihafen.org
 
 # Custom vars
 version:             0.8.0
