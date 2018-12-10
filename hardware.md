@@ -10,7 +10,7 @@ Transceiver | Supported | Driver | Bus | Where to buy
 adf7242 | yes | adf7242 | SPI or PMOD | [Analog](http://www.analog.com/en/products/rf-microwave/integrated-transceivers-transmitters-receivers/low-power-rf-transceivers/adf7242.html#product-samplebuy)
 at86rf212 | yes | at86rf230 | SPI | [aliexpress](http://de.aliexpress.com/item/Wireless-transceiver-module-zigbee-module-belt-at86rf212-mcu-chip-780m-module/1757611944.html)
 at86rf212b | yes | at86rf230 | SPI | [digikey](http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&keywords=ATZB-212B-XPRO)
-at86rf230 | no | at86rf230? | SPI
+at86rf230 | no | | SPI
 at86rf231 | yes | at86rf230 | SPI | [atben](http://downloads.qi-hardware.com/people/werner/wpan/web/) Out of stock.
 at86rf233 | yes | at86rf230 | SPI | [openlabs](http://openlabs.co/store/Raspberry-Pi-802.15.4-radio), [digikey](http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&keywords=ATREB233-XPRO)
 atusb | yes | atusb | USB | [Sysmocom](http://shop.sysmocom.de/products/atusb)

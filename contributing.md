@@ -28,14 +28,4 @@ For wpan-tools checkout the [wpan-tools](https://github.com/linux-wpan/wpan-tool
 If you want to take part in developing this website, do the following:
 
 ```
-git clone https://github.com/linux-wpan/wpan-misc.git
-cd wpan-misc/website
-git checkout -b myproposal
-\# Change this page to whatever you like.
-$EDITOR index.txt
-git commit -s -a
-\# be sure to be registered to linux-wpan@vger.kernel.org before sending the
-\# patch
-git send-email --to linux-wpan@vger.kernel.org -1
 ```
-Next wait for the reactions on the mailinglist and if your change is integrated.
