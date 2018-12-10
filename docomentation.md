@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How-To
+title: Documentation
 ---
 
 ##How-To’s
