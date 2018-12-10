@@ -6,9 +6,6 @@ While the protocol implementation resides inside the mainline Linux kernel, the
 needed configuration utilities are a some small userspace applications bundled
 in a [wpan-tools](wpan-tools) distribution.
 
-## Download
-For the last release check out [releases page](https://github.com/linux-wpan/wpan-tools/releases)
-
 ## Community interaction:
 Mailinglist: [linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org), [Archive](http://www.spinics.net/lists/linux-wpan)
 

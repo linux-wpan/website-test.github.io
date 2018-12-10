@@ -3,8 +3,6 @@ layout: page
 title: Resources
 ---
 
-## Specifications
-
 *   [IEEE](http://www.ieee802.org/15/pub/TG4.html):
 
     *   [http://standards.ieee.org/about/get/802/802.15.html](http://standards.ieee.org/about/get/802/802.15.html)
