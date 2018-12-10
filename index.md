@@ -1,5 +1,5 @@
 This project serves the purpose of enabling IEEE 802.15.4. and 6LoWPAN support
-to the Linux kernel network stack. I direction integration into the kernel stack
+to the Linux kernel network stack. Direction integration into the kernel stack
 allows for using all its capabilities and features.
 
 ## Community interaction:
@@ -18,20 +18,6 @@ traffic](howto)
 [Contributing guidelines](contributing)
 
 [Specification links and other resources](resources)
-
-## wpan-tools:
-To access the nl802154 netlink inteface and also for checking the network connectivity you will need the wpan-tools.
-
-Only minimal dependencies are needed (netlink library [libnl](http://www.infradead.org/~tgr/libnl/))
-
-
-These tools contains:
-
-**iwpan** based on the wireless [iw](http://wireless.kernel.org/en/users/Documentation/iw) tool.
-
-**wpan-ping** Ping utility on IEEE 802.15.4 level.
-
-**wpan-hwsim** configuration utility for the hardware simulator driver
 
 ## Download
 

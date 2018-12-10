@@ -1,3 +1,8 @@
+---
+layout: none
+title:
+---
+
 # Released under MIT License
 
 Copyright (c) 2014 Mark Otto.
