@@ -18,7 +18,7 @@ IRC: #linux-wpan on irc.freenode.net
 [Hardware support](hardware)
 
 [Howto configure network parameters, setup a test network or sniff network
-traffic](howto)
+traffic](documentation)
 
 [Project roadmap](roadmap)
 

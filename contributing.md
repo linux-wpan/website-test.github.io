@@ -5,9 +5,9 @@ title: Contributing
 
 ## Developing
 
-Current developing repository is [bluetooth-next](http://git.kernel.org/cgit/linux/kernel/git/bluetooth/bluetooth-next.git). All patches should be send to <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> and based on bluetooth-next.
+Current developing repository is [wpan-next](https://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan-next.git). All patches should be send to <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> and based on wpan-next or net-next.
 
-For wpan-tools checkout the [wpan-tools](https://github.com/linux-wpan/wpan-tools) repository. Also send patches to <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> for it with a "wpan-tools" tag. The same for [wpan-misc](https://github.com/linux-wpan/wpan-misc).
+For wpan-tools checkout the [wpan-tools](https://github.com/linux-wpan/wpan-tools) repository. Also send patches to <[linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org)\> for it with a "wpan-tools" tag.
 
 ## Open Tasks
 

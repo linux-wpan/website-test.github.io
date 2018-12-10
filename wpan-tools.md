@@ -3,7 +3,6 @@ layout: page
 title: Wpan-tools
 ---
 
-## wpan-tools:
 To access the nl802154 netlink inteface and also for checking the network connectivity you will need the wpan-tools.
 
 Only minimal dependencies are needed (netlink library [libnl](http://www.infradead.org/~tgr/libnl/))
