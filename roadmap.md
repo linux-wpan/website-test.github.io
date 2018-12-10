@@ -5,6 +5,11 @@ title: Roadmap
 
 ## Open Tasks
 
+* Wpan-tools 0.9 release with wpan-hwsim
+* Launch re-designed website
+* Finish intial ieee802154 and 6lowpan support for kselftest
+* Finish kernel documentation rework to new rst style
+
 *   rework
 
     *   missing features in nl802154, crypto etc.
