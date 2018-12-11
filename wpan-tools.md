@@ -3,18 +3,22 @@ layout: page
 title: Wpan-tools
 ---
 
-To access the nl802154 netlink inteface and also for checking the network connectivity you will need the wpan-tools.
+The configuration interface for the ieee802154 subsystem is exposed over
+the nl802154 netlink inteface. It allows to configure various phy and MAC
+layer parameters and properties. For a covienient usage we offer a set of
+small command line utilities that allow these configurations, wpan-tools.
 
-Only minimal dependencies are needed (netlink library [libnl](http://www.infradead.org/~tgr/libnl/))
+The tools are written in plain C and only minimal dependencies are needed
+(netlink library [libnl](http://www.infradead.org/~tgr/libnl/)).
 
 
 These tools contains:
 
-**iwpan** based on the wireless [iw](http://wireless.kernel.org/en/users/Documentation/iw) tool.
+**iwpan** main configuration utility (based on the wireless [iw](http://wireless.kernel.org/en/users/Documentation/iw) tool).
 
-**wpan-ping** Ping utility on IEEE 802.15.4 level.
+**wpan-ping** ping utility on IEEE 802.15.4 level
 
-**wpan-hwsim** configuration utility for the hardware simulator driver
+**wpan-hwsim** configuration of the hardware simulator driver
 
 ## Download
 
