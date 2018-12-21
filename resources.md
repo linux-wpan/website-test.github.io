@@ -2,13 +2,6 @@
 layout: page
 title: Resources
 ---
-### Presentations
-Over the years Alexander and Stefan have been given presentations on various
-aspects on and around the linux-wpan project.
-
-*
-
-
 ### Specifications
 * [IEEE](http://www.ieee802.org/15/pub/TG4.html):
 
