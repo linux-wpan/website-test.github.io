@@ -6,7 +6,7 @@ While the protocol implementation resides inside the mainline Linux kernel, the
 needed configuration utilities are some small userspace applications bundled
 in a [wpan-tools](wpan-tools) distribution.
 
-## Community interaction
+## Community
 All community communications on this project are happening on the project
 mailing list or its IRC channel. Don't be shy and get in contact if you have
 questions or contributions you want to make.
@@ -17,6 +17,6 @@ IRC: #linux-wpan on irc.freenode.net
 
 ## Content
 This small website features a list of [hardware](hardware) we support, a
-[project roadmap](roadmap), the [wpan-tools](wpan-tools) distribution
-[contribution guidelines](contributing), some [documentation](documentation)
+[project roadmap](roadmap), the [wpan-tools](wpan-tools) distribution,
+ [contribution guidelines](contributing), some [documentation](documentation)
 and a list of related [resources](resources).
