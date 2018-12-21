@@ -66,7 +66,7 @@ Now watch wireshark and all the nice ICMP packets there.
 
 ## Troubleshooting
 
-If you have issues with transceiver connected to SPI bus, check first if wiring is correct and SPI controller is properly configured. Try to decrease SPI clock frequency. Messages like these ones in dmesg output could indicate problems with SPI connection:
+If you have issues with a transceiver connected to a SPI bus, double and triple check first if the wiring is correct and the SPI controller is properly configured. Try to decrease SPI clock frequency. Messages like these ones in dmesg output could indicate problems with SPI connection:
 
 at86rf230 spi32765.0: unexcept state change from 0x01 to 0x08. Actual state:
 0x01
@@ -81,7 +81,7 @@ or wrongly setup device tree configurations.
 
 ## Sniffing
 
-To sniff first remove all wpan interface which sits on top of the wpan phy. You will get a list of all current running phy interface with:
+To sniff traffic first remove all wpan interfaces sitting on top of the wpan phy. You will get a list of all current running phy interface with:
 
 ```
 iwpan dev
