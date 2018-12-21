@@ -1,5 +1,5 @@
 # Setup
-title:               IEEE 802.15.4 & 6LoWPAN Linux Kernel Stack
+title:               IEEE 802.15.4 & 6LoWPAN in Linux
 tagline:             'Linux-Wpan'
 description:         ''
 url:                 http://linux-wpan.org/website-test.github.io/index.html
@@ -13,4 +13,4 @@ author:
   email:             stefan@datenfreihafen.org
 
 # Custom vars
-version:             0.8.0
+version:             0.9

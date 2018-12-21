@@ -1,25 +1,20 @@
-This project serves the purpose of enabling IEEE 802.15.4. and 6LoWPAN support
-to the Linux kernel network stack. Direction integration into the kernel stack
+This project serves the purpose of adding IEEE 802.15.4. and 6LoWPAN support
+to the Linux kernel network stack. Direct integration into the kernel stack
 allows for using all its capabilities and features.
 
 While the protocol implementation resides inside the mainline Linux kernel, the
-needed configuration utilities are a some small userspace applications bundled
+needed configuration utilities are some small userspace applications bundled
 in a [wpan-tools](wpan-tools) distribution.
 
 ## Community interaction:
+All community communications on this project are happening on the project
+mailing list or its IRC channel. Don't be shy and get in contact if you have
+questions or contributions you want to make.
 Mailinglist: [linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org), [Archive](http://www.spinics.net/lists/linux-wpan)
 
 IRC: #linux-wpan on irc.freenode.net
 
 ## Documentation
-[Hardware support](hardware)
-
-[Howto configure network parameters, setup a test network or sniff network
-traffic](documentation)
-
-[Project roadmap](roadmap)
-
-[Contributing guidelines](contributing)
-
-[Specification links and other resources](resources)
-
+This small website features a list of [hardware](hardware) we support, a
+[project roadmap](roadmap), [contribution guidelines](contributing), some
+[documentation](documentation) and a list of related [resources](resources).
