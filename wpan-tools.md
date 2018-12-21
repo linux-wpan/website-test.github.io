@@ -9,14 +9,14 @@ layer parameters and properties. For a covienient usage we offer a set of
 small command line utilities that allow these configurations, wpan-tools.
 
 The tools are written in plain C and only minimal dependencies are needed
-(netlink library [libnl](http://www.infradead.org/~tgr/libnl/)).
+(the netlink library [libnl](http://www.infradead.org/~tgr/libnl/)).
 
 
 These tools contains:
 
 **iwpan** main configuration utility (based on the wireless [iw](http://wireless.kernel.org/en/users/Documentation/iw) tool).
 
-**wpan-ping** ping utility on IEEE 802.15.4 level
+**wpan-ping** ping utility on IEEE 802.15.4 layer
 
 **wpan-hwsim** configuration of the hardware simulator driver
 
