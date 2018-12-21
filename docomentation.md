@@ -3,11 +3,10 @@ layout: page
 title: Documentation
 ---
 
-##How-To’s
+If the hardware and driver are configured correctly your system will come up
+with a node type wpan interface, most likely called wpan0.
 
-This section describes various How-To’s. Per default you should have already a node type wpan interface.
-
-## 6LoWPAN
+## Enable 6LoWPAN
 
 Set some valid pan_id, 802.15.4 default is 0xffff which means not assigned:
 
@@ -73,6 +72,12 @@ at86rf230 spi32765.0: unexcept state change from 0x01 to 0x08. Actual state:
 0x01
 WARNING: CPU: 0 PID: 61 at drivers/net/ieee802154/at86rf230.c:696 0xc0442644
 received tx trac status 4
+
+Also check if the driver does actually generats interrupts on received packets
+by checking /proc/interrupts.
+
+Most of the problem reports we are getting turn out to be related to bad cabling
+or wrongly setup device tree configurations.
 
 ## Sniffing
 
