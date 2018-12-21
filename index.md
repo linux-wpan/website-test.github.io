@@ -6,15 +6,17 @@ While the protocol implementation resides inside the mainline Linux kernel, the
 needed configuration utilities are some small userspace applications bundled
 in a [wpan-tools](wpan-tools) distribution.
 
-## Community interaction:
+## Community interaction
 All community communications on this project are happening on the project
 mailing list or its IRC channel. Don't be shy and get in contact if you have
 questions or contributions you want to make.
+
 Mailinglist: [linux-wpan@vger.kernel.org](mailto:linux-wpan@vger.kernel.org), [Archive](http://www.spinics.net/lists/linux-wpan)
 
 IRC: #linux-wpan on irc.freenode.net
 
-## Documentation
+## Content
 This small website features a list of [hardware](hardware) we support, a
-[project roadmap](roadmap), [contribution guidelines](contributing), some
-[documentation](documentation) and a list of related [resources](resources).
+[project roadmap](roadmap), the [wpan-tools](wpan-tools) distribution
+[contribution guidelines](contributing), some [documentation](documentation)
+and a list of related [resources](resources).
